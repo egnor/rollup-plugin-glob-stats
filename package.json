@@ -1,0 +1,26 @@
+{
+  "author": "Dan Egnor <egnor@ofb.net>",
+  "bugs": {
+    "url": "https://github.com/egnor/rollup-plugin-glob-stats/issues"
+  },
+  "dependencies": {
+    "@rollup/pluginutils": "^5.1.4",
+    "fast-glob": "^3.3.3"
+  },
+  "description": " Simple plugin for Rollup (rollupjs.org) to capture lists and metadata about source files matching a glob as static data for runtime use",
+  "homepage": "https://github.com/egnor/rollup-plugin-glob-stats#readme",
+  "license": "MIT",
+  "keywords": [
+    "rollup",
+    "plugin",
+    "glob"
+  ],
+  "main": "index.js",
+  "name": "rollup-plugin-glob-stats",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/egnor/rollup-plugin-glob-stats.git"
+  },
+  "type": "module",
+  "version": "1.0.0"
+}
