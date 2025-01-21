@@ -38,7 +38,8 @@ for (fn in myStuff) {
 }
 ```
 
-Each file's stats value will be an object in one of these formats:
+Glob expressions are evaluated with [fast-glob](https://github.com/mrmlnc/fast-glob#readme). They may reference any file available at build time. Each file's stats value will be an object in one of these formats:
 - `{ type: "file", size: <bytes (int)>, mtime: <millis (int)> }`
 - `{ type: "dir", mtime: <millis (int)> }`
 - `{ type: "symlink", target: <symlink target (string)>, mtime: <millis (int)> }`
+- `{ type: "special" }`
