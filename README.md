@@ -6,7 +6,7 @@ This is a plugin for [the Rollup bundler](https://rollupjs.org/) which can expan
 
 In one use case, your website includes a set of downloadable binary files which are checked into the source and copied to the output for serving, and you want to make a nice list of the files and their sizes for the user to select from. You could maintain this directory of files and sizes as a data file but that's error prone, it's nicer to just list the files at build time.
 
-In another use case, your website has a bunch of content entries (blog entries, articles, etc) and you have a system that makes pages out of them all, but you don't have a convenient way to list them all. By getting a list of the files you can know which pages are available. (In reality you'd probably want metadata like titles; perhaps this plugin should be expanded to support frontmatter lookup...??)
+In another use case, your website has a bunch of content entries (blog entries, articles, etc) and you have a system that makes pages out of them all, but you don't have a convenient way to list them all. By getting a list of the files you can render a table of contents or something like that. (In reality you'd probably want metadata like titles in addition to basic filenames; perhaps this plugin should be expanded to support frontmatter lookup...??)
 
 ## Usage
 
